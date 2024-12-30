@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage("Clone") {
       steps {
-        git url: "https://github.com/<your-username>/spring-boot-app.git"
+        git url: "https://github.com/Jidendiran-coder/spring-boot-app.git"
       }
     }
     stage("Build") {
